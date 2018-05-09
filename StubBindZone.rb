@@ -1,0 +1,3 @@
+class StunBindZone
+
+end
