@@ -1,0 +1,3 @@
+<% @domains.each do |domain| %>
+zone "<%= domain %>" { type master; file "<%= @path %><%= domain %>"; };
+<% end %>
